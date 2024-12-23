@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import productData from '../assets/all_product';
-import banner_mens1 from '../assets/banner_mens.jpg';
-import './Mens.css';
+import banner_mens1 
+from '../assets/banner_mens.jpg';
+import './mens.css';
 
 export const Mens = ({ addToCart }) => {
   const slicedProducts = productData.slice(0, 12);
   const [addedItems, setAddedItems] = useState({});
 
-  const handleAddToCart = (product) => {
+  const  handleAddToCart = (product) => {
     addToCart(product);
     setAddedItems((prevState) => ({
       ...prevState,
