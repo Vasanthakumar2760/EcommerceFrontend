@@ -10,7 +10,7 @@ import Login from './components/login/Login';
 import Signup from './components/signup/Signup';
 import OrderSuccess from './Stripe/Succes';
 import OrderCancelled from './Stripe/Cancel';
-import './app.css';
+import './App.css';
 import Home from './components/home/home';
 
 function App() {
